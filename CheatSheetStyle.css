@@ -52,8 +52,9 @@ article.domain details {
 
 }
 
-article.domain div {
-	padding: 15px;
+article.domain section {
+	padding: 10px 15px;
+	border-top: 1px dotted #c6d8da;
 }
 
 article.domain div span.command {
