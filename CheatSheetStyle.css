@@ -57,17 +57,17 @@ article.domain section {
 	border-top: 1px dotted #c6d8da;
 }
 
-article.domain div span.command {
+article.domain span.command {
 	font-family: Courier,monospace;
 	color: #2d4d50;
 }
 
-article.domain div span.shortcut {
+article.domain span.shortcut {
 	font-family: Courier,monospace;
 	color: #2d4d50;
 }
 
-article.domain div span.description {
+article.domain span.description {
 	display: block;
 	color: #91a4a6;
 	text-align: justify;
