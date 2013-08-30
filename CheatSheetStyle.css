@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Marck+Script);
+
+body {
+	background: #f4f4f0;
+	font-size: 17px;
+}
+
+#content {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 0 0 50px;
+}
+
+header h1 {
+	font-family: 'Marck Script', cursive;
+	color: #cf4c42;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+header details {
+	display: block;
+	color: #e7554a;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+article.domain {
+	display: block;
+	float: left;
+	max-width: 300px;
+	margin: 10px;
+	border: 1px solid #b2c2c4;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #fff;
+}
+
+article.domain h2 {
+	margin: 0;
+	padding: 5px 10px;
+	background: #c6d8da;
+	color: #91a4a6;
+	text-align: center;
+}
+
+article.domain details {
+
+}
+
+article.domain div {
+	padding: 15px;
+}
+
+article.domain div span.command {
+	font-family: Courier,monospace;
+	color: #2d4d50;
+}
+
+article.domain div span.shortcut {
+	font-family: Courier,monospace;
+	color: #2d4d50;
+}
+
+article.domain div span.description {
+	display: block;
+	color: #91a4a6;
+	text-align: justify;
+}
