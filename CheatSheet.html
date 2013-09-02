@@ -20,8 +20,44 @@
 				<span class="description">Partial add. You get to chose which changes you want to add to next commit and which not.</span>
 			</section>
 			<section>
+				<span class="command">git reset</span>
+				<span class="description">Unstage all changes but keep them.</span>
+			</section>
+			<section>
 				<span class="command">git reset --hard</span>
 				<span class="description">Remove all uncommited changes.</span>
+			</section>
+			<section>
+				<span class="command">git reset HEAD~1</span>
+				<span class="description">Remove last commit but keep changes.</span>
+			</section>
+			<section>
+				<span class="command">git reset --soft HEAD~1</span>
+				<span class="description">Remove last commit but keep changes and also keep index.</span>
+			</section>
+			<section>
+				<span class="command">git reset --hard HEAD~1</span>
+				<span class="description">Remove last commit with all changes.</span>
+			</section>
+			<section>
+				<span class="command">git diff</span>
+				<span class="description">Show changes.</span>
+			</section>
+			<section>
+				<span class="command">git diff --word-diff</span>
+				<span class="description">Diff by highlighting inline word changes instead of whole lines.</span>
+			</section>
+			<section>
+				<span class="command">git diff --cached</span>
+				<span class="description">Show changes added to index to commit.</span>
+			</section>
+			<section>
+				<span class="command">git log</span>
+				<span class="description">Show all commits.</span>
+			</section>
+			<section>
+				<span class="command">git log origin/master..master</span>
+				<span class="description">Show all not pushed commits.</span>
 			</section>
 		</div>
 	</article>
